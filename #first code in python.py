@@ -13,16 +13,16 @@ operation = int(input("Type what kind of operation you wanna do: "
                       "\n4 - Division"
                       "--> "))
 
-while operation <= 0  or operation >= 6:
-    if operation == 1 : 
+#while operation <= 0  or operation >= 6:
+if operation == 1 : 
        result = numberA + numberB
-    elif operation == 2 : 
+elif operation == 2 : 
        result = numberA - numberB
-    elif operation == 3 : 
+elif operation == 3 : 
        result = numberA * numberB
-    elif operation == 4 : 
+elif operation == 4 : 
        result = numberA / numberB
-    else : 
+else : 
         print("Error! Type a number between 1 and 4!")
 
 print("Your result is: " + str(result))
